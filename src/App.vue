@@ -23,7 +23,8 @@
         :key="name"
         :to="{ name }"
         :exact="name === 'Home'"
-        color="primary"
+        color="blue darken-1"
+
       >
         <v-list-item-content>
           <v-list-item-title v-text="name" />
@@ -43,25 +44,15 @@
         class="hidden-md-and-up"
         @click="drawer = !drawer"
       />
-      <v-btn
-        icon
-        large
-      >
-        <v-avatar
-          size="70px"
-          item
-        >
-          <v-img
+       <nav-logo>
+          <v-img style="margin-left:10px height:60px; width:60px;"
             src="@/assets/logo.png"
             alt="Vuetify"
-          ></v-img></v-avatar>
-      </v-btn> 
-      <v-appbar-title>College Buddy</v-appbar-title>
+  
+             
+          ></v-img></nav-logo>
+      <v-appbar-title class="display-1 "><h5 class="text--secondary font-weight-medium" style="margin:10px; padding:5px;">COLLEGE BUDDY</h5></v-appbar-title>
      <v-spacer>
-     </v-spacer>
-     <v-spacer>
-     </v-spacer>
-        <v-spacer>
      </v-spacer>
       <div>
         <v-tabs
@@ -83,9 +74,9 @@
           </v-tab>
         </v-tabs>
       </div>
-      <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon >mdi-account</v-icon>
+      
+      <v-btn  class="font-weight-regular v-btn--depressed theme--light v-size--large white rounded-pill blue--text text-darken-1">
+        <v-icon left >mdi-account</v-icon>Login
       </v-btn>
   </v-app-bar>
 
@@ -97,54 +88,39 @@
       <!-- If using vue-router -->
       <router-view></router-view>
   </v-content>
-
-  <v-footer 
-    id="home-footer"
-    absolute
-    color="grey darken-4"
+ <v-footer
     dark
-    min-height="72" app>
-    <!-- -->
-    <v-container>
-      <v-row>
-        <v-col
-          cols="12"
-          md="6"
-        >
-          <div class="d-flex flex-wrap justify-md-start justify-center justify-md-none">
-            <template v-for="(s, i) in social">
-              <a
-                :key="s"
-                class="white--text pa-1 pa-md-0"
-                href="#"
-                v-text="s"
-              />
+    padless
+  >
+    <v-card
+      class="flex"
+      flat
+      tile
+    >
+      <v-card-title class="blue darken-1 font-weight-bold">
+        <p class="subheading">Get connected with us on social networks!</p>
 
-              <v-responsive
-                v-if="i < social.length - 1"
-                :key="`divider-${s}`"
-                class="mx-4 shrink hidden-sm-and-down"
-                max-height="24"
-              >
-                <v-divider vertical />
-              </v-responsive>
-            </template>
-          </div>
-        </v-col>
+        <v-spacer></v-spacer>
 
-        <v-col
-          class="text-center text-md-right"
-          cols="12"
-          md="6"
+        <v-btn
+          v-for="icon in icons"
+          :key="icon"
+          class="mx-4"
+          dark
+          icon
         >
-          Copyright &copy; 2021 College Buddy
-        </v-col>
-      </v-row>
-    </v-container>    
+          <v-icon size="24px">
+            {{ icon }}
+          </v-icon>
+        </v-btn>
+      </v-card-title>
+
+      <v-card-text class="py-2 white--text text-center">
+       <strong> {{ new Date().getFullYear() }} — &copy; College Buddy</strong>
+      </v-card-text>
+    </v-card>
   </v-footer>
 </v-app>
- 
-  
 </template>
 
 <script>
@@ -155,11 +131,11 @@ export default {
     },
     data: () => ({
       drawer: null,
-      social: [
-        'Facebook',
-        'Twitter',
-        'Instagram',
-        'Linkedin',
+   icons: [
+        'mdi-facebook',
+        'mdi-twitter',
+        'mdi-linkedin',
+        'mdi-instagram',
       ],
       items: [
         'Home',

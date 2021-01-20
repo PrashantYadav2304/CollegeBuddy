@@ -15,12 +15,12 @@
               <div class="col-md-3 col-12">
                 <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5">
                   <div>
-                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-finance" style="font-size: 36px;"></i>
+                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-printer" style="font-size: 36px;"></i>
                     </div>
                   </div>
-                  <div class="v-card__title justify-center font-weight-black text-uppercase">Business
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Prints
                   </div>
-                  <div class="v-card__text subtitle-1">Explore perfect opportunities to grow your business at low cost
+                  <div class="v-card__text subtitle-1">Order prints of documents, posters and flyers.
                   </div>
                 </div>
               </div>
@@ -30,15 +30,60 @@
               <div class="col-md-3 col-12">
                 <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5">
                   <div>
-                    <div class="v-avatar blue lighten-2 " style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-human-female-female" style="font-size: 36px;"></i>
+                    <div class="v-avatar blue lighten-2 " style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-cart" style="font-size: 36px;"></i>
                     </div>
                   </div>
-                  <div class="v-card__title justify-center font-weight-black text-uppercase">College Buddy
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Buy Pronducts
                   </div>
-                  <div class="v-card__text subtitle-1">An International platform of women to help world wide business needs  
+                  <div class="v-card__text subtitle-1">Can buy stationery, old books at cheaper rates.
                   </div>
                 </div>
               </div>
+              <v-layout justify-space-around>
+                <v-icon class="mdi-48px" color="primary">mdi-compare-horizontal</v-icon>
+              </v-layout>
+              <div class="col-md-3 col-12">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5">
+                  <div>
+                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-calendar" style="font-size: 36px;"></i>
+                    </div>
+                  </div>
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Attendance Manager
+                  </div>
+                  <div class="v-card__text subtitle-1"> Manage attendence of your lectures.  
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-12">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5">
+                  <div>
+                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-calendar" style="font-size: 36px;"></i>
+                    </div>
+                  </div>
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Attendance Manager
+                  </div>
+                  <div class="v-card__text subtitle-1"> Manage attendence of your lectures.  
+                  </div>
+                </div>
+              </div>
+
+              <v-layout justify-space-around>
+                <v-icon class="mdi-48px" color="primary">mdi-compare-horizontal</v-icon>
+              </v-layout>
+              <div class="col-md-3 col-12">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5">
+                  <div>
+                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-brush" style="font-size: 36px;"></i>
+                    </div>
+                  </div>
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Club Activities
+                  </div>
+                  <div class="v-card__text subtitle-1">Single place to organize and attend club activities.  
+                  </div>
+                </div>
+              </div>
+
               <v-layout justify-space-around>
                 <v-icon class="mdi-48px" color="primary">mdi-compare-horizontal</v-icon>
               </v-layout>
@@ -48,12 +93,15 @@
                     <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-account-group-outline" style="font-size: 36px;"></i>
                     </div>
                   </div>
-                  <div class="v-card__title justify-center font-weight-black text-uppercase">Indivisuals
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Collaboration
                   </div>
-                  <div class="v-card__text subtitle-1"> Make your career &amp; personal lives better, explore now
+                  <div class="v-card__text subtitle-1"> Manage attendence of your lectures.  
                   </div>
                 </div>
               </div>
+              
+
+
             </div>
           </div>
         </v-responsive>
