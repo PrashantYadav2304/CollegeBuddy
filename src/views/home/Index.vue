@@ -3,9 +3,7 @@
     <Header />
     <Features />
     <Businessfeature />
-    <Socialmedia />
     <Business />
-    <Individual />
 
     
     
@@ -21,9 +19,7 @@
 import Header from "./Header.vue"
 import Features from "./Features.vue"
 import Businessfeature from "./Businessfeature.vue"
-import Socialmedia from "./Socialmedia.vue"
 import Business from "./Business.vue"
-import Individual from "./Individual.vue"
 
 export default {
   name: 'Home',
@@ -35,9 +31,8 @@ export default {
     Header,
     Features,
     Businessfeature,
-    Socialmedia,
-    Business,
-    Individual
+    Business
+    
   }
 
 }

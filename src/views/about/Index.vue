@@ -1,5 +1,21 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div id="app">
+    <Businessfeature/>
+    
   </div>
 </template>
+
+<script>
+import Businessfeature from '@/views/home/Businessfeature.vue'
+
+export default {
+  name: 'App',
+  components:{
+    Businessfeature
+  }
+}
+</script>
+
+<style>
+
+</style>

@@ -1,6 +1,6 @@
 <template>
 <div>
-  <section id="social" class="light-blue darken-4 text-center mt-8" style="padding: 28px 0px;">
+  <section id="social" class="light-blue darken-3 text-center mt-8" style="padding: 28px 0px;">
     <i aria-hidden="true" class="v-icon notranslate mb-8 mdi mdi-twitter theme--dark" style="font-size: 56px;"></i>
     <div class="base-section-heading text-center mb-12">
       <!----><!---->

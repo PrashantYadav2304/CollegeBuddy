@@ -51,7 +51,7 @@
   
              
           ></v-img></nav-logo>
-      <v-appbar-title class="display-1 "><h5 class="text--secondary font-weight-medium" style="margin:10px; padding:5px;">COLLEGE BUDDY</h5></v-appbar-title>
+      <v-appbar-title class="display-1 "><h5 class="grey--text text--darken-3 font-weight-medium" style="margin:10px; padding:5px;">COLLEGE BUDDY</h5></v-appbar-title>
      <v-spacer>
      </v-spacer>
       <div>
@@ -97,8 +97,10 @@
       flat
       tile
     >
-      <v-card-title class="blue darken-1 font-weight-bold">
-        <p class="subheading">Get connected with us on social networks!</p>
+      <v-card-title class="blue darken-2 font-weight-bold">
+        <p class="subheading">Get connected with us on social networks!<br><button type="button"
+          class="font-weight-regular mb-12 v-btn v-btn--depressed theme--light v-size--x-large white rounded-pill  mt-4" style="min-width: 150px;"><span class="v-btn__content blue--text text-darken-1"><v-icon left>mdi-phone</v-icon> Call us:8219730474 </span></button>
+         </p>
 
         <v-spacer></v-spacer>
 
@@ -109,14 +111,14 @@
           dark
           icon
         >
-          <v-icon size="24px">
+          <v-icon size="36px">
             {{ icon }}
           </v-icon>
         </v-btn>
       </v-card-title>
 
       <v-card-text class="py-2 white--text text-center">
-       <strong> {{ new Date().getFullYear() }} — &copy; College Buddy</strong>
+       <strong> {{ new Date().getFullYear() }} — &copy; College Buddy Pvt. Ltd.</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -136,6 +138,7 @@ export default {
         'mdi-twitter',
         'mdi-linkedin',
         'mdi-instagram',
+        'mdi-gmail'
       ],
       items: [
         'Home',
