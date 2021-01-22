@@ -1,8 +1,9 @@
 <template>   
   <div >
     <Header />
-    <Detailedfeature />
     <Business />
+    <Detailedfeature />
+    
 
     
     
