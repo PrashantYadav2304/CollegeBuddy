@@ -34,7 +34,7 @@
                     <div class="v-avatar blue lighten-2 " style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-cart" style="font-size: 36px;"></i>
                     </div>
                   </div>
-                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Buy Pronducts
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Buy Products
                   </div>
                   <div class="v-card__text subtitle-1">Can buy stationery, old books at cheaper rates.
                   </div>

@@ -3,7 +3,7 @@
     <v-img
       :min-height="minHeight"
       height="920"
-      :src="require('@/assets/header.svg')"
+      :src="require('@/assets/header.jpg')"
       class="white--text"
       gradient="to right, rgba(5, 11, 31, .4), rgba(5, 11, 31, .4)"
       

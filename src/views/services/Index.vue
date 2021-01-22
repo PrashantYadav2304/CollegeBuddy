@@ -1,21 +1,32 @@
-<template>
-  <div id="app">
-    <Business/>
+<template>   
+  <div >
+    <Header />
+    <Detailedfeature />
+    <Business />
+
     
-  </div>
+    
+  </div>  
 </template>
 
 <script>
-import Business from '@/views/home/Business.vue'
+// @ is an alias to /src
+import Header from "./Header.vue"
+import Detailedfeature from "./Detailedfeature.vue"
+import Business from "@/views/home/Business.vue"
 
 export default {
-  name: 'App',
-  components:{
-    Business
+  name: 'Home',
+  data() {
+    return {
+    }
+  },
+  components: {
+    Header,
+    Business,
+    Detailedfeature,
+    
   }
+
 }
 </script>
-
-<style>
-
-</style>

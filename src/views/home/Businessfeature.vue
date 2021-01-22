@@ -20,7 +20,7 @@
         <div class="v-responsive v-image">
         <div class="v-responsive__sizer" style="padding-bottom: 66.75%;"></div>
         <div class="v-image__image v-image__image--cover">
-          <v-img src="@/assets/feature.svg" aspect-ratio="1.5"></v-img>
+          <v-img src="@/assets/feature-2.svg" aspect-ratio="1.5"></v-img>
         </div>
        
         </div>

@@ -1,10 +1,9 @@
 <template>
-  <div id="app">
-    <section>
+  <section>
     <v-img
       :min-height="minHeight"
       height="920"
-      :src="require('@/assets/header2.jpg')"
+      :src="require('@/assets/header3.jpg')"
       class="white--text"
       gradient="to right, rgba(5, 11, 31, .4), rgba(5, 11, 31, .4)"
       
@@ -16,10 +15,10 @@
           max-width="700"
           width="100%"
         >
-        <div class="display-1 font-weight-normal" >We are here to</div>
-        <div class="display-4 font-weight-medium" >Make your College Life Easier</div>
+        <div class="display-1 font-weight-normal" >We are commited to provide you</div>
+        <div class="display-4 font-weight-medium" > Best Services</div>
         
-          <div
+           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
@@ -31,29 +30,21 @@
       </v-container>
     </v-img>
   </section>
-    <Businessfeature/>
-    
-  </div>
 </template>
 
 <script>
-import Businessfeature from '@/views/home/Businessfeature.vue'
+  export default {
+    name: 'Header',
 
-export default {
-  name: 'App',
-  components:{
-    Businessfeature
-  },
-   computed: {
+    computed: {
       minHeight () {
         const height = this.$vuetify.breakpoint.mdAndUp ? '100vh' : '50vh'
 
         return `calc(${height} - ${this.$vuetify.application.top}px)`
       },
     },
-}
+  }
 </script>
 
 <style>
-
 </style>

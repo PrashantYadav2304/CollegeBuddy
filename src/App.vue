@@ -51,7 +51,7 @@
   
              
           ></v-img></nav-logo>
-      <v-appbar-title class="display-1 "><h5 class="grey--text text--darken-3 font-weight-medium" style="margin:10px; padding:5px;">COLLEGE BUDDY</h5></v-appbar-title>
+      <v-appbar-title class="display-1 "><h5 class="grey--text text--darken-2 font-weight-medium" style="margin:10px; padding:5px;">college buddy</h5></v-appbar-title>
      <v-spacer>
      </v-spacer>
       <div>
@@ -75,9 +75,7 @@
         </v-tabs>
       </div>
       
-      <v-btn  class="font-weight-regular v-btn--depressed theme--light v-size--large white rounded-pill blue--text text-darken-1">
-        <v-icon left >mdi-account</v-icon>Login
-      </v-btn>
+     
   </v-app-bar>
 
   <!-- Sizes your content based upon application components -->
