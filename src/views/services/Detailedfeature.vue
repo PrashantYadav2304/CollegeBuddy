@@ -1,6 +1,6 @@
 <template>
 <div>
-    <section style="padding-bottom:0px;" id="welcome">
+    <section style="padding-bottom:60px;" id="welcome">
                       <div class="section-header text-center">
                         <h2 class="display-1 font-weight-light">SERVICES</h2>
                         <hr role="separator" aria-orientation="horizontal" class="mt-5 mb-4 mx-auto v-divider theme--light">

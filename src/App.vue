@@ -51,8 +51,9 @@
   
              
           ></v-img></nav-logo>
+          <router-link to="/" style="text-decoration:none;">
       <v-appbar-title class="display-1 "><h5 class="grey--text text--darken-2 font-weight-medium" style="margin:10px; padding:5px;">college buddy</h5></v-appbar-title>
-     <v-spacer>
+          </router-link> <v-spacer>
      </v-spacer>
       <div>
         <v-tabs

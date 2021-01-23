@@ -2,9 +2,9 @@
   <section class="white">
     <div class="container">
       <v-tabs centered class="pt-2">
-        <v-tab class="display-1 black--text">College Buddy</v-tab>
+        <v-tab class="display-1 black--text">Our Mission</v-tab>
       </v-tabs>
-          <p class=" text-center pt-5 pb-10">"Make your College Life easier, let us handle the unnecessary stuff"</p>
+          <p class=" text-center pt-5 pb-10">"To make your college life more productive"</p>
       <div class="row">
         <div class="col-md-5 col-12">
           <h2 class="mb-4 headline">"Be picky with who you waste your time in, Wasted time is worse than wasted money." </h2>
@@ -18,7 +18,7 @@
         <div class="v-responsive v-image">
         <div class="v-responsive__sizer" style="padding-bottom: 66.75%;"></div>
         <div class="v-image__image v-image__image--cover">
-          <v-img src="@/assets/feature-2.svg" aspect-ratio="1.5"></v-img>
+          <v-img src="@/assets/team.jpg" aspect-ratio="1.5"></v-img>
         </div>
        
         </div>

@@ -56,7 +56,7 @@
                 </div>
               </div>
 
-              <div class="col-md-5 col-12">
+              <div class="col-md-3 col-12">
                 <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
                   <div>
                     <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-calendar" style="font-size: 36px;"></i>
@@ -73,7 +73,7 @@
               <v-layout justify-space-around>
                 <v-icon class="mdi-48px" color="primary">mdi-arrow-right-bold</v-icon>
               </v-layout>
-              <div class="col-md-5 col-12">
+              <div class="col-md-3 col-12">
                 <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
                   <div>
                     <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-account-group-outline" style="font-size: 36px;"></i>
@@ -81,7 +81,23 @@
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Collaboration
                   </div>
-                  <div class="v-card__text subtitle-1"> Collaboration of projects, ideas and much more.  
+                  <div class="v-card__text subtitle-1"> Collaboration of projects, ideas, visions and much more.  
+                  </div>
+                </div>
+              </div>
+
+              <v-layout justify-space-around>
+                <v-icon class="mdi-48px" color="primary">mdi-arrow-right-bold</v-icon>
+              </v-layout>
+              <div class="col-md-3 col-12">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
+                  <div>
+                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-finance" style="font-size: 36px;"></i>
+                    </div>
+                  </div>
+                  <div class="v-card__title justify-center font-weight-bold text-uppercase">Business
+                  </div>
+                  <div class="v-card__text subtitle-1"> Join us now to grow your business to new heights(for vendors only).  
                   </div>
                 </div>
               </div>

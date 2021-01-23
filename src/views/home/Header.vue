@@ -21,10 +21,10 @@
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
-            
+            <a href="https://play.google.com/store/apps/details?id=com.printhub.signup" style="text-decoration:none;">
           <button type="button"
           class="font-weight-regular mb-12 v-btn v-btn--depressed theme--light v-size--x-large white rounded-pill  mt-4" style="min-width: 150px;"><span class="v-btn__content blue--text text-darken-1"><v-icon left>mdi-download</v-icon> Get it on Google Play </span></button>
-          </div>
+            </a></div>
         </v-responsive>
       </v-container>
     </v-img>

@@ -31,18 +31,27 @@
       </v-container>
     </v-img>
   </section>
-    <Businessfeature/>
+    <Goals/>
+    <Inspiration/>
+    <Team/>
     
   </div>
 </template>
 
 <script>
-import Businessfeature from '@/views/home/Businessfeature.vue'
+import Goals from './Goals.vue'
+import Inspiration from './Inspiration.vue'
+import Team from './Team.vue'
+
+
+
 
 export default {
   name: 'App',
   components:{
-    Businessfeature
+    Goals,
+    Inspiration,
+    Team
   },
    computed: {
       minHeight () {
