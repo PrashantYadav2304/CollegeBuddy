@@ -7,9 +7,9 @@
           <p class=" text-center pt-5 pb-10">"Make your College Life easier, let us handle the unnecessary stuff"</p>
       <div class="row">
         <div class="col-md-5 col-12">
-          <h2 class="mb-4 headline">"Be picky with who you waste your time in, Wasted time is worse than wasted money." </h2>
-          <p class="subtitle-1"> College Buddy is an emerging startup by 5 students of NIT Hamirpur, India. Currently, we are being oerated in NIT Hamirpur and collegses of Lucknow. We are here to revolutionise the your college life.</p>
-          <p class="subtitle-1"> College Buddy is an all in one app to fulfill college needs of students. It eliminates unnecessary stuffs thus you can save your time, money and much more. Our aim is to provide multi-time single day doorstep deliveries, connecting local vendors near colleges.
+          <h2 class="mb-4 headline font-italic">"Time is money, Continually look for ways to do things faster & better." </h2>
+          <p class="subtitle-1"> College Buddy is an emerging startup by 5 students of NIT Hamirpur, India. Currently, we are being operated in NIT Hamirpur and few colleges of Lucknow. We are here to revolutionise your college life.</p>
+          <p class="subtitle-1"> College Buddy is an all in one app to fulfill college needs of students. It eliminates unnecessary stuffs thus you can save your time, money and can do something much more. Our aim is to provide you services which can do all this, we want to make such community where people can learn together and gorw together.
             We believe in innovation and are looking for support to build our idea as a global startup to help students. </p>
          
         </div>

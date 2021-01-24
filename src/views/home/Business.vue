@@ -64,7 +64,7 @@
               <div class="secondary--text title font-weight-bold mb-4 text-left"> SERVICES 
               </div>
               <p class="base-body body-1 grey--text text--darken-1 text-left mb-10"> We here at College Buddy trying to provide various services to the students as well as to the local vendors. By collaborating with vendors we are here eliminating the hardships of students in their college life. It's a small step to make student's life much convenient. From our app you can order your printouts of documents, order stationeries etc. in just some clicks without facing any inconvenience that too with cheaper rates and get delivered your order in fastest time possiible.
-                <br><br>We are here joining local vendors to realise our plan and your desires. Vendors near colleges can join with us fo collaboration and for growing their business. For further enquiries and queries contact us now. </p>
+                <br><br>We are here joining local vendors to realise our plan and your dreams. Vendors near colleges can join with us for collaboration and for growing their business. For further enquiries and queries contact us now. </p>
               <button type="button" class="font-weight-regular mb-12 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--x-large primary--text" style="min-width: 164px;"><span class="v-btn__content"><v-icon left >mdi-download</v-icon> Download Merchant App Here </span></button>
               <div class="row">
                 <div class="col-12">
@@ -87,13 +87,19 @@
               </div>
               <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Buy & Sell Old/Used books
+                  <div class="subtitle-1">Buy & Sell Old/Used Books
                   </div>
                 </div>
               </div>
               <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Manage Your Attendances and much more.
+                  <div class="subtitle-1">Manage Your Attendance 
+                  </div>
+                </div>
+              </div>
+               <div class="col-12">
+                <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
+                  <div class="subtitle-1">Collaborate, Host & Participate in Events 
                   </div>
                 </div>
               </div>

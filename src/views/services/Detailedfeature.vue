@@ -2,7 +2,7 @@
 <div>
     <section style="padding-bottom:60px;" id="welcome">
                       <div class="section-header text-center">
-                        <h2 class="display-1 font-weight-light">SERVICES</h2>
+                        <h2 class="display-1 font-weight-light blue--text text--darken-3">SERVICES</h2>
                         <hr role="separator" aria-orientation="horizontal" class="mt-5 mb-4 mx-auto v-divider theme--light">
                         <p class="title font-weight-light mx-auto" style="max-width: 800px;">Get the most out of College Buddy</p>
                         </div>
@@ -23,7 +23,7 @@
                               </v-layout>
                                     <div class="col-md-10 col-12">
                                       <h3 class="title font-weight-regular mb-3 mt-2">Collaboration</h3>
-                                      <p class="body-1 font-weight-light">Find & collaborate with people having same vision. Learn togrther & have fun. Collaborate on different projects, fun activities, learning resources & anything you can think of.</p>
+                                      <p class="body-1 font-weight-light">Find & collaborate with people having same vision. Learn together & have fun. Collaborate on different projects, fun activities, learning resources & anything you can think of.</p>
                                     </div>
                                   </section>
                                 </div>
@@ -34,7 +34,7 @@
                               </v-layout>
                                 <div class="col-md-10 col-12">
                                   <h3 class="title font-weight-regular mb-3 mt-2">Stationery</h3>
-                                  <p class="body-1 font-weight-light">Get variety of stationery items at chaepest prices like notebooks, pen, pencils, files, charts & all such stuffs at your doorstep within hours.</p>
+                                  <p class="body-1 font-weight-light">Get variety of stationery items at cheapest rates like notebooks, pen, pencils, files, charts & all such stuffs at your doorstep within hours.</p>
                                 </div>
                               </section>
                             </div>
@@ -67,7 +67,7 @@
                               </v-layout>                                                     
                               <div class="col-md-10 col-12">
                                 <h3 class="title font-weight-regular mb-3 mt-2">Club Activities & Events</h3>
-                                <p class="body-1 font-weight-light">Know about your campus events and participate in club activities proactively to nurture yourself. Get to know differnt events happening in other campuses, be aware of such events & seize such opportunities for your growth.</p>
+                                <p class="body-1 font-weight-light">Know about your campus events and participate in club activities proactively to nurture yourself. Get to know different events happening in other campuses, be aware of such events & seize such opportunities for your growth.</p>
                               </div>
                             </section>
                           </div>
@@ -78,7 +78,7 @@
                               </v-layout>
                                 <div class="col-md-10 col-12">
                                   <h3 class="title font-weight-regular mb-3 mt-2">Business Growth</h3>
-                                  <p class="body-1 font-weight-light">For vendors running stationery & printout shops near college campuses, join us to grow your business to new heights, make your business more profitable and efficient.Hurry up & join us before it's too late </p>
+                                  <p class="body-1 font-weight-light">For vendors running stationery & printout shops near college campuses, join us to grow your business to new heights, make your business more profitable and efficient. Hurry up & join us before it's too late. </p>
                                   </div>
                                 </section>
                               </div>      

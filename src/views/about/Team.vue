@@ -1,7 +1,7 @@
 <template>
 
  <section class="white">
-    <div class="container">
+    <div class="container mt-10 mb-10">
       <v-tabs centered class="pt-2">
         <v-tab class="display-1 black--text">Our Team</v-tab>
       </v-tabs>

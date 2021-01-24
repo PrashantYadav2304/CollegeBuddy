@@ -1,19 +1,13 @@
-<template>
-  <section class="white">
-    <div class="container">
+<template >
+  <section class="white ">
+    <div class="container mt-6">
       <v-tabs centered class="pt-2">
-        <v-tab class="display-1 black--text">Our Inspiration</v-tab>
+        <v-tab class="display-1 black--text ">Our Inspiration</v-tab>
       </v-tabs>
-          <p class=" text-center pt-5 pb-10">"To make your college life more productive"</p>
+          <p class=" text-center pt-5 pb-10">"Dream it, Believe it & Achieve it."</p>
       <div class="row">
-        <div class="col-md-5 col-12">
-          <h2 class="mb-4 headline">"Be picky with who you waste your time in, Wasted time is worse than wasted money." </h2>
-          <p class="subtitle-1"> College Buddy is an emerging startup by 5 students of NIT Hamirpur, India. Currently, we are being oerated in NIT Hamirpur and collegses of Lucknow. We are here to revolutionise the your college life.</p>
-          <p class="subtitle-1"> College Buddy is an all in one app to fulfill college needs of students. It eliminates unnecessary stuffs thus you can save your time, money and much more. Our aim is to provide multi-time single day doorstep deliveries, connecting local vendors near colleges.
-            We believe in innovation and are looking for support to build our idea as a global startup to help students. </p>
-         
-        </div>
-        <div class="col-md-6 offset-md-1 col-12">
+       
+        <div class="col-md-6 col-12">
         <div class="v-card v-sheet theme--light">
         <div class="v-responsive v-image">
         <div class="v-responsive__sizer" style="padding-bottom: 66.75%;"></div>
@@ -23,6 +17,13 @@
        
         </div>
         </div>
+        </div>
+         <div class="col-md-5 offset-md-1 col-12">
+          <h2 class="mb-4 headline font-italic">"Harder you work for something, greater you'll feel when achieve it."</h2>
+          <p class="subtitle-1"> We love to chill with friends, getting social, exploring creative projects & most importantly getting out of cliche tasks of college life. So, we created College Buddy and launched in our institute NIT Hamirpur, resulting a very loving feedback from fellow 1000+ students i.e. consumers  in just one month that too with a very basic app. That made us inspired and really happy.</p>
+        
+          <p class="subtitle-1">We are motivated, we have started our journey and now we are not going to stop until we realise our goal. Be ready, we are going to bring a revolution in your college life. </p>
+         
         </div>
       </div>
     </div>

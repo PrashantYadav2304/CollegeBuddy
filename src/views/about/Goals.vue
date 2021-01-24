@@ -1,16 +1,15 @@
 <template>
   <section class="white">
-    <div class="container">
+    <div class="container  mt-10">
       <v-tabs centered class="pt-2">
         <v-tab class="display-1 black--text">Our Mission</v-tab>
       </v-tabs>
-          <p class=" text-center pt-5 pb-10">"To make your college life more productive"</p>
+          <p class=" text-center pt-5 pb-10">"To make your college life more productive."</p>
       <div class="row">
         <div class="col-md-5 col-12">
-          <h2 class="mb-4 headline">"Be picky with who you waste your time in, Wasted time is worse than wasted money." </h2>
-          <p class="subtitle-1"> College Buddy is an emerging startup by 5 students of NIT Hamirpur, India. Currently, we are being oerated in NIT Hamirpur and collegses of Lucknow. We are here to revolutionise the your college life.</p>
-          <p class="subtitle-1"> College Buddy is an all in one app to fulfill college needs of students. It eliminates unnecessary stuffs thus you can save your time, money and much more. Our aim is to provide multi-time single day doorstep deliveries, connecting local vendors near colleges.
-            We believe in innovation and are looking for support to build our idea as a global startup to help students. </p>
+          <h2 class="mb-4 headline font-italic">"Shoot for the moon. Even if you miss, you'll land among the stars." </h2>
+          <p class="subtitle-1"> Our mission is to bring the change you want to see in your college life. We are passionate to bring ease, make your life more focused & productive. We want you to join people having same vision as yours, so that you all can grow together to do something greater.
+          <p class="subtitle-1">Here, we bring you the freedom to explore and have fun in productive way. Let us handle the hard & unnecessary stuff, we are making such community. We want you save time, money and use it for learning, growing, seizing opportunities and getting better education. </p>
          
         </div>
         <div class="col-md-6 offset-md-1 col-12">

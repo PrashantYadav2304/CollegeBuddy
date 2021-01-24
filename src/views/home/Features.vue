@@ -64,7 +64,7 @@
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Attendance Manager
                   </div>
-                  <div class="v-card__text subtitle-1"> Manage attendence of your lectures.  
+                  <div class="v-card__text subtitle-1"> Manage attendance of your lectures.  
                   </div>
                 </div>
               </div>
