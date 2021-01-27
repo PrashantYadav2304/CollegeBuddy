@@ -69,37 +69,37 @@
               <div class="row">
                 <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Same-day Multi-time Delivery
+                  <div class="subtitle-1">Collab with people
                   </div>
                 </div>
               </div>
               <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Doorstep & Free Delivery
+                  <div class="subtitle-1">Checkout global events
                   </div>
                 </div>
               </div>
               <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Buy All Stationery Products
+                  <div class="subtitle-1">Track club activities
                   </div>
                 </div>
               </div>
               <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Buy & Sell Old/Used Books
+                  <div class="subtitle-1">Attendance manager
                   </div>
                 </div>
               </div>
               <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Manage Your Attendance 
+                  <div class="subtitle-1">Get printouts and buy stationery 
                   </div>
                 </div>
               </div>
-               <div class="col-12">
+              <div class="col-12">
                 <div class="d-flex align-center"><i aria-hidden="true" class="v-icon notranslate mr-3 mdi mdi-check-circle-outline theme--light primary--text" style="font-size: 28px;"></i>
-                  <div class="subtitle-1">Collaborate, Host & Participate in Events 
+                  <div class="subtitle-1">Quick access to web services
                   </div>
                 </div>
               </div>

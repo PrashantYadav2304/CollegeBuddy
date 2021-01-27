@@ -1,12 +1,8 @@
 <template>   
   <div >
     <Header />
-    <Business />
     <Detailedfeature />
-    
-
-    
-    
+    <Business /> 
   </div>  
 </template>
 

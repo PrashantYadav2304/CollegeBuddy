@@ -46,13 +46,13 @@
       />
        <nav-logo>
           <v-img style="margin-left:10px height:60px; width:60px;"
-            src="@/assets/logo.png"
-            alt="Vuetify"
+            src="@/assets/CBuddy.png"
+            alt="College Buddy Logo"
   
              
           ></v-img></nav-logo>
           <router-link to="/" style="text-decoration:none;">
-      <v-appbar-title class="display-1 "><h5 class="grey--text text--darken-2 font-weight-medium" style="margin:10px; padding:5px;">college buddy</h5></v-appbar-title>
+      <v-appbar-title class="display-1 "><h5 class="grey--text text--darken-2 font-weight-medium" style="margin:10px; padding:5px;">College Buddy</h5></v-appbar-title>
           </router-link> <v-spacer>
      </v-spacer>
       <div>
@@ -80,25 +80,24 @@
   </v-app-bar>
 
   <!-- Sizes your content based upon application components -->
-  <v-content>
+  <v-main>
 
     <!-- Provides the application the proper gutter -->
 
       <!-- If using vue-router -->
       <router-view></router-view>
-  </v-content>
+  </v-main>
  <v-footer
     dark
-    padless
   >
     <v-card
       class="flex"
       flat
       tile
     >
-      <v-card-title class="blue darken-2 font-weight-bold">
+      <v-card-title class="font-weight-bold">
         <p class="subheading">Get connected with us on social networks!<br><button type="button"
-          class="font-weight-regular mb-12 v-btn v-btn--depressed theme--light v-size--x-large white rounded-pill  mt-4" style="min-width: 150px;"><span class="v-btn__content blue--text text-darken-1"><v-icon left>mdi-phone</v-icon> Call us:8219730474 </span></button>
+          class="font-weight-regular v-btn v-btn--depressed theme--light v-size--x-large white rounded-pill  mt-4"><span class="v-btn__content blue--text text-darken-1"><v-icon left>mdi-phone</v-icon> Call us:8219730474 </span></button>
          </p>
 
         <v-spacer></v-spacer>
@@ -137,7 +136,8 @@ export default {
         'mdi-twitter',
         'mdi-linkedin',
         'mdi-instagram',
-        'mdi-gmail'
+        'mdi-gmail',
+        'mdi-youtube'
       ],
       items: [
         'Home',

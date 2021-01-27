@@ -8,7 +8,7 @@
       gradient="to right, rgba(5, 11, 31, .4), rgba(5, 11, 31, .4)"
       
     >
-      <v-container class="fill-height px-4 py-12">
+      <v-container class="fill-height px-4">
         <v-responsive
           class="d-flex align-center"
           height="100%"
@@ -16,7 +16,8 @@
           width="100%"
         >
         <div class="display-4 font-weight-black" >COLLEGE BUDDY</div>
-        <div class="display-1 font-italic" ><p class>Your One Solution College Mate</p></div>
+        <div class="display-1" ><p class>"One stop solution for all your college needs"</p>
+        </div>
           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"

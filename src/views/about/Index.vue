@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <section>
     <v-img
       :min-height="minHeight"
@@ -24,8 +24,8 @@
             class="d-flex flex-wrap"
           >
             
-          <p style="padding:15px; padding-right:20px;"
-          class="font-weight-regular mb-12  theme--light  white rounded-pill  mt-4" ><span class=" blue--text text-darken-1"><v-icon color="blue" left>mdi-arrow-down-bold</v-icon> Scroll for more </span></p>
+          <!-- <p style="padding:15px; padding-right:20px;"
+          class="font-weight-regular mb-12  theme--light  white rounded-pill  mt-4" ><span class=" blue--text text-darken-1"><v-icon color="blue" left>mdi-arrow-down-bold</v-icon> Scroll for more </span></p> -->
           </div>
         </v-responsive>
       </v-container>
