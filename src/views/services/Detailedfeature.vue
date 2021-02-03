@@ -2,15 +2,14 @@
 <div>
     <section class="py-12 blue-grey lighten-4" id="welcome">
                       <div class="section-header text-center">
-                        <h2 class="display-1 font-weight-light blue--text text--darken-3">SERVICES</h2>
+                        <h2 class="display-1 font-weight-light blue--text text--darken-3">Get the most out of College Buddy</h2>
                         <hr role="separator" aria-orientation="horizontal" class="mt-5 mb-4 mx-auto v-divider theme--light">
-                        <p class="title font-weight-light mx-auto" style="max-width: 800px;">Get the most out of College Buddy</p>
                         </div>
                         <div class="container px-0 py-0">
-                          <div class="v-responsive v-image mx-auto" style="max-height: 400px; max-width: 700px;">
-                            <div class="v-responsive__sizer" style="padding-bottom: 100%;">
+                          <div class="v-responsive v-image mx-auto">
+                            <div class="v-responsive__sizer">
                             
-                            <v-img  :src="require('@/assets/businessfeature.svg')" aspect-ratio="1.7" contain alt=""></v-img>
+                            <v-img  :src="require('@/assets/businessfeature1.svg')" max-height="600px" alt=""></v-img>
                             </div>
                           <div class="v-responsive__content" style="width: 512px;">
                           </div>

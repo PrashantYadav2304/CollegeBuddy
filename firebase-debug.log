@@ -1,0 +1,30 @@
+[debug] [2021-01-27T20:44:29.330Z] ----------------------------------------------------------------------
+[debug] [2021-01-27T20:44:29.333Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Levi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:collegebuddy
+[debug] [2021-01-27T20:44:29.334Z] CLI Version:   8.4.2
+[debug] [2021-01-27T20:44:29.334Z] Platform:      win32
+[debug] [2021-01-27T20:44:29.334Z] Node Version:  v12.16.1
+[debug] [2021-01-27T20:44:29.336Z] Time:          Thu Jan 28 2021 02:14:29 GMT+0530 (India Standard Time)
+[debug] [2021-01-27T20:44:29.337Z] ----------------------------------------------------------------------
+[debug] [2021-01-27T20:44:29.337Z] 
+[debug] [2021-01-27T20:44:29.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-27T20:44:29.349Z] > authorizing via signed-in user
+[debug] [2021-01-27T20:44:29.350Z] [iam] checking project myapplication-2ca64 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-27T20:44:29.353Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/myapplication-2ca64:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-27T20:44:31.034Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 27 Jan 2021 20:44:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1152","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-27T20:44:31.036Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/myapplication-2ca64  
+ 
+[debug] [2021-01-27T20:44:31.669Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 27 Jan 2021 20:44:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'myapplication-2ca64'...
+[info] 
+[info] i  deploying hosting 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/myapplication-2ca64/overview
+[debug] [2021-01-27T20:44:32.031Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\Levi\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.

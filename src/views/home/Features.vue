@@ -15,9 +15,9 @@
             We believe in innovation and are looking for support to build our idea as a global startup to help students.</p>
             <div class="row">
               <div class="col-md-3 col-12">
-                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet blue lighten-3 rounded-xl">
                   <div>
-                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-account-group-outline" style="font-size: 36px;"></i>
+                    <div class="v-avatar grey lighten-4" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-account-group-outline" style="font-size: 36px;"></i>
                     </div>
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Collab
@@ -31,9 +31,9 @@
                 <v-icon class="mdi-48px" color="primary">mdi-arrow-right-bold</v-icon>
               </v-layout>
               <div class="col-md-3 col-12">
-                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet blue lighten-3 rounded-xl">
                   <div>
-                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-finance" style="font-size: 36px;"></i>
+                    <div class="v-avatar grey lighten-4" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-finance" style="font-size: 36px;"></i>
                     </div>
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Global Events
@@ -47,9 +47,9 @@
                 <v-icon class="mdi-48px" color="primary">mdi-arrow-right-bold</v-icon>
               </v-layout>
               <div class="col-md-3 col-12">
-                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet blue lighten-3 rounded-xl">
                   <div>
-                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-brush" style="font-size: 36px;"></i>
+                    <div class="v-avatar grey lighten-4" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-brush" style="font-size: 36px;"></i>
                     </div>
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Club Activities
@@ -60,9 +60,9 @@
               </div>
 
               <div class="col-md-3 col-12">
-                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet blue lighten-3 rounded-xl">
                   <div>
-                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-calendar" style="font-size: 36px;"></i>
+                    <div class="v-avatar grey lighten-4" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-calendar" style="font-size: 36px;"></i>
                     </div>
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Bunk Manager
@@ -80,9 +80,9 @@
 
               <div class="col-md-3 col-12">
                 
-               <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
+               <div class="py-12 px-4 v-card v-card--flat v-sheet blue lighten-3 rounded-xl">
                   <div>
-                    <div class="v-avatar blue lighten-2" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-printer" style="font-size: 36px;"></i>
+                    <div class="v-avatar grey lighten-4" style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-printer" style="font-size: 36px;"></i>
                     </div>
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Prints
@@ -96,9 +96,9 @@
                 <v-icon class="mdi-48px" color="primary">mdi-arrow-right-bold</v-icon>
               </v-layout>
               <div class="col-md-3 col-12">
-                <div class="py-12 px-4 v-card v-card--flat v-sheet theme--light grey lighten-5 rounded-xl">
+                <div class="py-12 px-4 v-card v-card--flat v-sheet blue lighten-3 rounded-xl">
                   <div>
-                    <div class="v-avatar blue lighten-2 " style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-cart" style="font-size: 36px;"></i>
+                    <div class="v-avatar grey lighten-4 " style="height: 88px; min-width: 88px; width: 88px;"><i aria-hidden="true" class="v-icon notranslate mdi mdi-cart" style="font-size: 36px;"></i>
                     </div>
                   </div>
                   <div class="v-card__title justify-center font-weight-bold text-uppercase">Get your stuff
