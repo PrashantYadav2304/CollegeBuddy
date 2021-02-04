@@ -4,6 +4,7 @@
       :min-height="minHeight"
       height="920"
       :src="require('@/assets/header.jpg')"
+      alt="College Buddy Home page/Index page"
       class="white--text"
       gradient="to right, rgba(5, 11, 31, .4), rgba(5, 11, 31, .4)"
       
@@ -15,16 +16,23 @@
           max-width="700"
           width="100%"
         >
-        <div class="display-4 font-weight-black" >COLLEGE BUDDY</div>
+        <div 
+        :class="$vuetify.breakpoint.smAndDown ? 'display-3 font-weight-black' : 'display-4 font-weight-black'"
+         >
+         COLLEGE BUDDY</div>
         <div class="display-1" ><p class>"One stop solution for all your college needs"</p>
         </div>
           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
+            <!-- <a href="https://drive.google.com/uc?export=download&confirm&id=1kw6tsZKDl0ZvzpPUu1sQ7tTLVNzQSs1C" download style="text-decoration:none;"> -->
+          <button type="button" @click="downloadApk()"
+          class="font-weight-regular mb-12 v-btn v-btn--depressed theme--light v-size--x-large white rounded-pill  mt-4" style="min-width: 150px;"><span class="v-btn__content blue--text text-darken-1"><v-icon left>mdi-download</v-icon> Get the latest app with cool features</span></button>
+            <!-- </a> -->
             <a href="https://play.google.com/store/apps/details?id=com.printhub.signup" style="text-decoration:none;">
           <button type="button"
-          class="font-weight-regular mb-12 v-btn v-btn--depressed theme--light v-size--x-large white rounded-pill  mt-4" style="min-width: 150px;"><span class="v-btn__content blue--text text-darken-1"><v-icon left>mdi-download</v-icon> Get it on Google Play </span></button>
+          class="font-weight-regular mb-12 v-btn v-btn--depressed theme--light v-size--x-large grey rounded-pill  mt-4" style="min-width: 150px;"><span class="v-btn__content"><v-icon left>mdi-download</v-icon> Get it on Google Play </span></button>
             </a></div>
         </v-responsive>
       </v-container>
@@ -33,8 +41,20 @@
 </template>
 
 <script>
+import { store } from '@/firebase'
+
   export default {
     name: 'Header',
+
+    methods:{
+      downloadApk: function(){
+        let refe = store.ref('LatestApk')
+        refe.child('CollegeBuddy.apk').getDownloadURL().then(function(downloadUrl) {
+         window.open(downloadUrl)
+      })
+      }
+      
+    },
 
     computed: {
       minHeight () {

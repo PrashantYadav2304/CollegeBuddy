@@ -17,7 +17,7 @@
         <div class="v-responsive v-image">
         <div class="v-responsive__sizer" style="padding-bottom: 66.75%;"></div>
         <div class="v-image__image v-image__image--cover">
-          <v-img src="@/assets/home-hero.jpg" aspect-ratio="1.5"></v-img>
+          <v-img src="@/assets/home-hero.jpg" aspect-ratio="1.5" alt="College Buddy index page image"></v-img>
         </div>
        
         </div>

@@ -1,3 +1,7 @@
+import firebase from "firebase/app"
+import "firebase/firestore"
+import "firebase/storage"
+
 var firebaseConfig = {
   apiKey: "AIzaSyC9P1eTHKrNCndBnLzMbc_4ogyxM96j-io",
   authDomain: "myapplication-2ca64.firebaseapp.com",
@@ -9,5 +13,8 @@ var firebaseConfig = {
   measurementId: "G-101CFL3T8M"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const db = firebaseApp.firestore()
+const store = firebaseApp.storage()
+export {db, store} 
+firebaseApp.analytics;

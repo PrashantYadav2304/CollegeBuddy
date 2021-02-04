@@ -9,7 +9,7 @@
                           <div class="v-responsive v-image mx-auto">
                             <div class="v-responsive__sizer">
                             
-                            <v-img  :src="require('@/assets/businessfeature1.svg')" max-height="600px" alt=""></v-img>
+                            <v-img  :src="require('@/assets/businessfeature1.svg')" max-height="600px" alt="Get the most out of college buddy"></v-img>
                             </div>
                           <div class="v-responsive__content" style="width: 512px;">
                           </div>

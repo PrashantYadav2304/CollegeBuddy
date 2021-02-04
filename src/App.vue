@@ -3,7 +3,6 @@
 <v-app id='app'>
   <v-navigation-drawer
     v-model="drawer"
-    bottom
     color="transparent"
     fixed
     height="auto"
@@ -103,9 +102,10 @@
         <v-spacer></v-spacer>
 
         <v-btn
-          v-for="icon in icons"
-          :key="icon"
+          v-for="(icon, i) in icons"
+          :key="i"
           class="mx-4"
+          :href="links[i]"
           dark
           icon
         >
@@ -131,14 +131,20 @@ export default {
     },
     data: () => ({
       drawer: null,
-   icons: [
-        'mdi-facebook',
-        'mdi-twitter',
+    icons: [
         'mdi-linkedin',
         'mdi-instagram',
         'mdi-gmail',
         'mdi-youtube'
       ],
+      links:[
+        'https://www.linkedin.com/company/college-buddy',
+        'https://www.instagram.com/invites/contact/?i=1ijkkzqdnnni1&utm_content=crmeaag',
+        'https://collegebuddy.connect@gmail.com',
+        'https://www.youtube.com/channel/UCtHTsMOmi3pnNw5pPdM7r9A'
+
+      ],
+    
       items: [
         'Home',
         'Services',

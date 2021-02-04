@@ -67,8 +67,9 @@
           md="4">
           <v-card elevation="0">
             <v-img src="@/assets/team1.svg"
-             max-height="500px" contain></v-img>
-             <v-card-title>Whatever it takes!</v-card-title>
+              alt="College Buddy Team"
+              max-height="500px" contain></v-img>
+              <v-card-title>Whatever it takes!</v-card-title>
             <v-card-text>
               <p class="mx-auto my-4">"We push ourselves to get things done and we love to get feeedback to make them better. We work together and celebrate small steps with full excitement. We are open minded and we like to discuss on anything that will make College Buddy better. We trust each other and value humanity. We respect differences and we love to connect with student communities. We experiment constantly to make student's life easy and fun with creative learning and connecting approach"</p>
             </v-card-text>
@@ -102,7 +103,7 @@
         {
           icon: 'mdi-linkedin',
           color: 'cyan darken-1',
-          links:['https://www.linkedin.com/in/prashant-yadav-2304/','https://www.linkedin.com/in/vaibhav-kumar-25b35241/', 'www.linkedin.com/in/subhashish-anand/','https://www.linkedin.com/in/rahul-raj-12107515b', 'https://www.linkedin.com/in/vaibhav-deep-b6b4471a2'],
+          links:['https://www.linkedin.com/in/prashant-yadav-2304/','https://www.linkedin.com/in/vaibhav-kumar-25b35241/', 'https://www.linkedin.com/in/subhashish-anand/','https://www.linkedin.com/in/rahul-raj-12107515b', 'https://www.linkedin.com/in/vaibhav-deep-b6b4471a2'],
 
         },
         {
